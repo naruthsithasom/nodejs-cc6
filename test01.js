@@ -1,0 +1,7 @@
+const os = require('os')
+tmem = os.totalmem()
+fmem = os.freemem()
+//console.log(os.cpus()
+console.log(fmem)
+console.log(`Use ${tmem - fmem} Byte`)
+console.log(os.hostname())
