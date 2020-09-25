@@ -2,7 +2,7 @@
 
 const myUtil = require('./module-my/myUtil')
 const myPower = require('./module-my/myPower.js')
-const { myUser } = require('./module-my/myUsers') //ส่งObject มาใช้
+const  mUser  = require('./module-my/myUsers') //ส่งObject มาใช้
 
 //การใช้ Module ทัี่สร้างเอง 3 วิธี
 //console.log(superMe.pi)
@@ -11,4 +11,4 @@ const { myUser } = require('./module-my/myUsers') //ส่งObject มาใช
 console.log(myUtil.myGetRandom(1,10))
 console.log(myUtil.myCircleArea(100))
 console.log(myPower.myBase(4,2))
-console.log(myUser.firstName)
+console.log(mUser.myUser.firstName)
