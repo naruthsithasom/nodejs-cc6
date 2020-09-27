@@ -9,13 +9,23 @@
 
 <body>
   <div class="container">
-    <h3>Express API</h3>
-    <form action="/getdata" method="post" target="_blank">
+    <h3>Express Method="get"</h3>
+    <form action="/getdata" method="get" target="_blank">
       <label for="fname">ชื่อ</label><br>
       <input type="text" name="fname"><br>
       <label for="lname">นามสกุล</label><br>
       <input type="text"name="lname"><br><br> 
       <input type="submit" value="OK">
+    </form>
+    <a href="/">Back</a>
+  </div>
+  <hr>
+  <div class="container">
+    <h3>Express Method=POST</h3>
+    <form action="/dosearch" method="POST" target="_blank">
+      <label for="fname">ชื่อ</label><br>
+      <input type="text" name="fname"><br>
+      <input type="submit" value="ตกลง">
     </form>
     <a href="/">Back</a>
   </div>
